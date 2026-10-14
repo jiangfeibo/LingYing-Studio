@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="360" viewBox="0 0 1600 360" role="img" aria-label="Classroom Generation">
+<rect width="1600" height="360" fill="#10182b"/>
+<path d="M1140 0V360M1250 0V360M1360 0V360M1470 0V360M1100 85H1600M1100 175H1600M1100 265H1600" stroke="#293149" stroke-width="1"/>
+<rect x="72" y="64" width="40" height="5" fill="#aa85ff"/>
+<text x="130" y="74" fill="#a6b0c7" font-size="17" font-family="Arial,sans-serif" letter-spacing="4">PRODUCT JOURNAL · 02</text>
+<text x="72" y="184" fill="#f6f7fb" font-size="72" font-family="Arial,sans-serif" font-weight="600" letter-spacing="-2">Classroom Generation</text>
+<text x="76" y="242" fill="#aa85ff" font-size="19" font-family="Arial,sans-serif" letter-spacing="3">MATERIALS  /  TEACHING  /  VIDEO</text>
+<text x="76" y="309" fill="#a6b0c7" font-size="16" font-family="Arial,sans-serif" letter-spacing="2">PROJECT SHOWCASE · OCTOBER 2026</text>
+<circle cx="1376" cy="180" r="112" fill="#10182b" stroke="#aa85ff" stroke-width="2"/>
+<circle cx="1376" cy="180" r="74" fill="none" stroke="#46506a" stroke-width="1"/>
+<path d="M1330 180H1422M1376 134V226" stroke="#aa85ff" stroke-width="2"/>
+<circle cx="1376" cy="180" r="7" fill="#aa85ff"/>
+</svg>
