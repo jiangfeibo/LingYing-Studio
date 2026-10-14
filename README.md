@@ -18,10 +18,10 @@
 
 | 大模型的涌现能力 | 序列到序列任务与序列标注 |
 | :---: | :---: |
-| [![课堂一：课件、教师与字幕](assets/lesson-1-poster.png)](https://maolinqi.github.io/LingYing-Studio-Showcase/#lesson-1) | [![课堂二：课件、教师与重点聚焦](assets/lesson-2-poster.png)](https://maolinqi.github.io/LingYing-Studio-Showcase/#lesson-2) |
+| [![课堂一：课件、教师与字幕](assets/lesson-1-poster.png)](https://jiangfeibo.github.io/LingYing-Studio/#lesson-1) | [![课堂二：课件、教师与重点聚焦](assets/lesson-2-poster.png)](https://jiangfeibo.github.io/LingYing-Studio/#lesson-2) |
 | **08:04 · 含声音 · 1080p** | **05:09 · 含声音 · 1080p** |
-| [▶ 在线播放课堂一](https://maolinqi.github.io/LingYing-Studio-Showcase/#lesson-1) | [▶ 在线播放课堂二](https://maolinqi.github.io/LingYing-Studio-Showcase/#lesson-2) |
-| [下载完整 MP4](https://github.com/maolinqi/LingYing-Studio-Showcase/releases/download/showcase-20261014/classroom-example-1.mp4) | [下载完整 MP4](https://github.com/maolinqi/LingYing-Studio-Showcase/releases/download/showcase-20261014/classroom-example-2.mp4) |
+| [▶ 在线播放课堂一](https://jiangfeibo.github.io/LingYing-Studio/#lesson-1) | [▶ 在线播放课堂二](https://jiangfeibo.github.io/LingYing-Studio/#lesson-2) |
+| [下载完整 MP4](https://github.com/jiangfeibo/LingYing-Studio/releases/download/showcase-20261014/classroom-example-1.mp4) | [下载完整 MP4](https://github.com/jiangfeibo/LingYing-Studio/releases/download/showcase-20261014/classroom-example-2.mp4) |
 
 第一段能看到课件、数字人讲解、字幕与重点指示；第二段能看到局部聚焦怎样将注意力引向页面中的具体内容。两段视频都是项目生成的课堂实例，完整文件保留原字节；1080p 是合成画面的规格。
 
@@ -136,7 +136,7 @@ MiniMax H3 官方资料描述了多模态参考与联合音视频生成，单段
 
 ---
 
-中文名称统一为“灵影”，本项目英文名称为 **LingYing Studio**；数字人交互与视频生成项目为 [**LingYing Live**](https://github.com/maolinqi/LingYing-Live-Showcase)。
+中文名称统一为“灵影”，本项目英文名称为 **LingYing Studio**；数字人交互与视频生成项目为 [**LingYing Live**](https://github.com/jiangfeibo/LingYing-Live)。
 
 公开仓库发布文章、图片和课堂实例，项目实现源码、权重、配置和用户数据保持私有。动漫封面为 AI 概念插画，实际成果以正文视频为准。素材与第三方组件权利说明见 [NOTICE.md](NOTICE.md)。
 
