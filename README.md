@@ -1,8 +1,10 @@
 <p align="center">
-  <img src="assets/editorial-cover.svg" alt="Classroom Generation — Product Journal" width="100%">
+  <img src="assets/editorial-cover.svg" alt="灵影 · LingYing Studio — 数字人课堂生成" width="100%">
 </p>
 
-<h1 align="center">Classroom Generation · 数字人课堂生成</h1>
+<h1 align="center">灵影</h1>
+
+<p align="center">LingYing Studio · 数字人课堂生成</p>
 
 <p align="center"><strong>让教学材料成为可讲解、可编辑、可交付的课程。</strong></p>
 
@@ -22,10 +24,10 @@
 
 一份教材或一套课件，离一节能够观看的课程还有很长的距离：需要组织讲解、补充例子、安排重点、录制声音，再将课件、字幕与教师画面放到同一条时间线上。
 
-**Classroom Generation 将这些工作连接在一个课程制作系统里。** 用户上传教学材料，用自然语言说明章节、受众和讲解要求；系统围绕材料组织课堂内容，并将课件、教学动作、配音和数字人画面组合成课程成果。教师可以继续调整内容，也可以将课程导出为视频，用于课前学习、章节复习和教学展示。
+**灵影（LingYing Studio）将这些工作连接在一个课程制作系统里。** 用户上传教学材料，用自然语言说明章节、受众和讲解要求；系统围绕材料组织课堂内容，并将课件、教学动作、配音和数字人画面组合成课程成果。教师可以继续调整内容，也可以将课程导出为视频，用于课前学习、章节复习和教学展示。
 
 <p align="center">
-  <img src="assets/07-classroom-workspace.png" alt="Classroom Generation 首页：教学要求、材料上传、模型选择与最近学习" width="100%">
+  <img src="assets/07-classroom-workspace.png" alt="灵影课堂生成首页：教学要求、材料上传、模型选择与最近学习" width="100%">
 </p>
 <p align="center"><sub>图 7 · 当前课堂生成入口。通过教学要求与附件发起制作，后台任务与课程记录承接后续工作。已精确裁去浏览器栏。</sub></p>
 
@@ -49,9 +51,9 @@
 
 | 大模型的涌现能力 | 序列到序列任务与序列标注 |
 | :---: | :---: |
-| [![课堂实例一封面](assets/lesson-1-poster.png)](https://github.com/maolinqi/Classroom-Generation-Showcase/releases/download/showcase-20261014/classroom-example-1.mp4) | [![课堂实例二封面](assets/lesson-2-poster.png)](https://github.com/maolinqi/Classroom-Generation-Showcase/releases/download/showcase-20261014/classroom-example-2.mp4) |
+| [![课堂实例一封面](assets/lesson-1-poster.png)](https://github.com/maolinqi/LingYing-Studio-Showcase/releases/download/showcase-20261014/classroom-example-1.mp4) | [![课堂实例二封面](assets/lesson-2-poster.png)](https://github.com/maolinqi/LingYing-Studio-Showcase/releases/download/showcase-20261014/classroom-example-2.mp4) |
 | **08:04 · 1920 × 1080 · 含音轨** | **05:09 · 1920 × 1080 · 含音轨** |
-| [下载完整课堂一](https://github.com/maolinqi/Classroom-Generation-Showcase/releases/download/showcase-20261014/classroom-example-1.mp4) | [下载完整课堂二](https://github.com/maolinqi/Classroom-Generation-Showcase/releases/download/showcase-20261014/classroom-example-2.mp4) |
+| [下载完整课堂一](https://github.com/maolinqi/LingYing-Studio-Showcase/releases/download/showcase-20261014/classroom-example-1.mp4) | [下载完整课堂二](https://github.com/maolinqi/LingYing-Studio-Showcase/releases/download/showcase-20261014/classroom-example-2.mp4) |
 
 <p align="center">
   <img src="assets/lesson-1-preview.gif" alt="课堂一短片预览：大模型涌现能力课件、数字人讲解与字幕" width="100%">
@@ -141,14 +143,14 @@ MiniMax H3 官方资料描述了文本、图像、视频和音频参考输入，
 
 我们的发展方向是将课件、讲稿、配音与视频保留为可继续使用的教学资产，再由具备制作能力的 Agent 协助组织和更新。个性化版本、跨语言制作和课程资产检索是后续值得探索的方向，仍需分别完成模型接入、质量审阅及真实使用评估。
 
-课堂生成负责内容制作与交付；[灵影](https://github.com/maolinqi/LingYing-Showcase) 面向对话、声音与数字人交互，英文以 LingYing Live 和 LingYing Studio 区分对话与视频制作方向。两者服务不同的使用场景，共享能力通过独立适配接入，各自保留运行和数据边界。
+两个项目的中文名称统一为“灵影”。本项目 **LingYing Studio** 负责数字人课堂生成、内容制作与课程交付；[**LingYing Live**](https://github.com/maolinqi/LingYing-Live-Showcase) 面向数字人实时对话与视频生成。两者服务不同的使用场景，共享能力通过独立适配接入，各自保留运行和数据边界。
 
 ---
 
 ### 展示范围与技术来源
 
-本仓库只发布介绍、界面素材与课堂实例，不公开本项目实现源码、模型权重、部署配置、用户数据或凭据。公开展示不改变第三方组件的许可义务，也不授予其中教材、标识或人物素材的额外使用权。详见 [展示素材与权利说明](NOTICE.md)。
+本仓库只发布介绍、界面素材与课堂实例，不公开本项目实现源码、模型权重、部署配置、用户数据或凭据。图中旧名称对应品牌统一前的界面素材。公开展示不改变第三方组件的许可义务，也不授予其中教材、标识或人物素材的额外使用权。详见 [展示素材与权利说明](NOTICE.md)。
 
 课堂基础能力基于 [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC)，数字人制作使用 [SoulX-FlashHead](https://github.com/Soul-AILab/SoulX-FlashHead) 等现有能力；V3 采用 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 扩展机制。各组件的能力与许可归其原作者；本项目介绍的工作集中在独立适配、课程编辑、后台制作与交付组织。
 
-<p align="center"><sub>Classroom Generation · 从材料出发，让课程持续生长。</sub></p>
+<p align="center"><sub>灵影 · LingYing Studio · 从材料出发，让课程持续生长。</sub></p>
