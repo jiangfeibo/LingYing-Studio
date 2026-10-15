@@ -18,20 +18,20 @@
   </style>
 </head>
 <body>
-  <nav><strong>灵影 Studio <span class="muted">/ VivaPersona Studio</span></strong><a href="https://github.com/jiangfeibo/LingYing-Studio">返回文章 ↗</a></nav>
+  <nav><strong>灵影 Studio <span class="muted">/ VivaPersona Studio</span></strong><a href="https://github.com/jiangfeibo/VivaPersona-Studio">返回文章 ↗</a></nav>
   <main>
     <header class="intro"><small>真实课堂 · 完整视频 · 含声音</small><h1>先看一节课程。</h1><p>课件、人物讲解和重点引导，组成可观看的课程。点击播放后可开启声音或全屏观看。</p></header>
     <div class="choices" role="group" aria-label="选择课堂"><button id="choose-1" type="button" aria-pressed="true">01 · 大模型的涌现能力</button><button id="choose-2" type="button" aria-pressed="false">02 · 序列任务与序列标注</button></div>
-    <div class="player"><video id="player" controls playsinline preload="metadata" poster="media/lesson-1-poster.png" aria-label="完整课堂视频" src="https://github.com/jiangfeibo/LingYing-Studio/releases/download/showcase-20261014/classroom-example-1.mp4"></video></div>
-    <div class="caption"><div><h2 id="lesson-title">大模型的涌现能力</h2><p id="lesson-description">08:04 · 1920 × 1080 · 课件、教师与字幕</p></div><a id="download" class="download" href="https://github.com/jiangfeibo/LingYing-Studio/releases/download/showcase-20261014/classroom-example-1.mp4">下载完整 MP4 ↓</a></div>
+    <div class="player"><video id="player" controls playsinline preload="metadata" poster="media/lesson-1-poster.png" aria-label="完整课堂视频" src="https://github.com/jiangfeibo/VivaPersona-Studio/releases/download/showcase-20261014/classroom-example-1.mp4"></video></div>
+    <div class="caption"><div><h2 id="lesson-title">大模型的涌现能力</h2><p id="lesson-description">08:04 · 1920 × 1080 · 课件、教师与字幕</p></div><a id="download" class="download" href="https://github.com/jiangfeibo/VivaPersona-Studio/releases/download/showcase-20261014/classroom-example-1.mp4">下载完整 MP4 ↓</a></div>
     <p id="error" class="failure" role="status" hidden>视频暂时无法加载。可以使用“下载完整 MP4”取得原文件后观看。</p>
     <footer>两段视频由项目作者提供，为现有项目生成的课堂实例。动态知识示范与 MiniMax H3 接入是进一步探索的方向。课件、人物与标识权利由相应权利人保留。</footer>
-    <noscript><p>完整课堂一可直接播放。<a href="https://github.com/jiangfeibo/LingYing-Studio/releases/download/showcase-20261014/classroom-example-2.mp4">下载课堂二</a>。</p></noscript>
+    <noscript><p>完整课堂一可直接播放。<a href="https://github.com/jiangfeibo/VivaPersona-Studio/releases/download/showcase-20261014/classroom-example-2.mp4">下载课堂二</a>。</p></noscript>
   </main>
   <script>
     const lessons=[{title:'大模型的涌现能力',description:'08:04 · 1920 × 1080 · 课件、教师与字幕'},{title:'序列到序列任务与序列标注',description:'05:09 · 1920 × 1080 · 课件、教师与重点聚焦'}];
     const player=document.getElementById('player');let current=0;
-    function selectLesson(){const next=location.hash==='#lesson-2'?1:0;const lesson=lessons[next];document.getElementById('lesson-title').textContent=lesson.title;document.getElementById('lesson-description').textContent=lesson.description;[1,2].forEach(n=>document.getElementById('choose-'+n).setAttribute('aria-pressed',String(n===next+1)));if(current!==next){player.pause();player.src='https://github.com/jiangfeibo/LingYing-Studio/releases/download/showcase-20261014/classroom-example-'+(next+1)+'.mp4';player.poster='media/lesson-'+(next+1)+'-poster.png';player.load();current=next;document.getElementById('error').hidden=true}document.getElementById('download').href=player.src}
+    function selectLesson(){const next=location.hash==='#lesson-2'?1:0;const lesson=lessons[next];document.getElementById('lesson-title').textContent=lesson.title;document.getElementById('lesson-description').textContent=lesson.description;[1,2].forEach(n=>document.getElementById('choose-'+n).setAttribute('aria-pressed',String(n===next+1)));if(current!==next){player.pause();player.src='https://github.com/jiangfeibo/VivaPersona-Studio/releases/download/showcase-20261014/classroom-example-'+(next+1)+'.mp4';player.poster='media/lesson-'+(next+1)+'-poster.png';player.load();current=next;document.getElementById('error').hidden=true}document.getElementById('download').href=player.src}
     [1,2].forEach(n=>document.getElementById('choose-'+n).addEventListener('click',()=>{location.hash='lesson-'+n}));window.addEventListener('hashchange',selectLesson);player.addEventListener('error',()=>{document.getElementById('error').hidden=false});selectLesson();
   </script>
 </body>

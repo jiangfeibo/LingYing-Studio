@@ -18,10 +18,10 @@
 
 | 大模型的涌现能力 | 序列到序列任务与序列标注 |
 | :---: | :---: |
-| [![课堂一：课件、教师与字幕](assets/01-lesson-1-poster.png)](https://jiangfeibo.github.io/LingYing-Studio/#lesson-1) | [![课堂二：课件、教师与重点聚焦](assets/02-lesson-2-poster.png)](https://jiangfeibo.github.io/LingYing-Studio/#lesson-2) |
+| [![课堂一：课件、教师与字幕](assets/01-lesson-1-poster.png)](https://jiangfeibo.github.io/VivaPersona-Studio/#lesson-1) | [![课堂二：课件、教师与重点聚焦](assets/02-lesson-2-poster.png)](https://jiangfeibo.github.io/VivaPersona-Studio/#lesson-2) |
 | **图 1 · 08:04 · 含声音 · 1080p** | **图 2 · 05:09 · 含声音 · 1080p** |
-| [▶ 在线播放课堂一](https://jiangfeibo.github.io/LingYing-Studio/#lesson-1) | [▶ 在线播放课堂二](https://jiangfeibo.github.io/LingYing-Studio/#lesson-2) |
-| [下载完整 MP4](https://github.com/jiangfeibo/LingYing-Studio/releases/download/showcase-20261014/classroom-example-1.mp4) | [下载完整 MP4](https://github.com/jiangfeibo/LingYing-Studio/releases/download/showcase-20261014/classroom-example-2.mp4) |
+| [▶ 在线播放课堂一](https://jiangfeibo.github.io/VivaPersona-Studio/#lesson-1) | [▶ 在线播放课堂二](https://jiangfeibo.github.io/VivaPersona-Studio/#lesson-2) |
+| [下载完整 MP4](https://github.com/jiangfeibo/VivaPersona-Studio/releases/download/showcase-20261014/classroom-example-1.mp4) | [下载完整 MP4](https://github.com/jiangfeibo/VivaPersona-Studio/releases/download/showcase-20261014/classroom-example-2.mp4) |
 
 第一段能看到课件、数字人讲解、字幕与重点指示；第二段能看到局部聚焦怎样将注意力引向页面中的具体内容。两段视频都是项目生成的课堂实例，完整文件保留原字节；1080p 是合成画面的规格。
 
@@ -134,9 +134,12 @@ MiniMax H3 官方资料描述了多模态参考与联合音视频生成，单段
 
 用户上传材料并说明章节、受众和用途，系统准备课程内容，再按请求处理配音、教师片段与视频交付。后台任务可以查看实际状态，处理失败与重试。
 
+<p align="center"><img src="assets/04-classroom-generation-status.png" alt="课堂生成状态页：课件读取、页面导入、讲稿与教学动作准备，以及章节列表和进入课堂入口" width="100%"></p>
+<p align="center"><sub>图 4 · 课堂生成状态与章节准备，素材采集于品牌统一前。</sub></p>
+
 ---
 
-中文名称统一为“灵影”，本项目英文名称为 **VivaPersona Studio**；数字人交互与视频生成项目为 [**VivaPersona Live**](https://github.com/jiangfeibo/LingYing-Live)。
+中文名称统一为“灵影”，本项目英文名称为 **VivaPersona Studio**；数字人交互与视频生成项目为 [**VivaPersona Live**](https://github.com/jiangfeibo/VivaPersona-Live)。
 
 公开仓库发布文章、图片和课堂实例，项目实现源码、权重、配置和用户数据保持私有。动漫封面为 AI 概念插画，实际成果以正文视频为准。素材与第三方组件权利说明见 [NOTICE.md](NOTICE.md)。
 
@@ -146,4 +149,4 @@ MiniMax H3 官方资料描述了多模态参考与联合音视频生成，单段
 
 **指导老师：** 江沸菠，[jiangfb@hunnu.edu.cn](mailto:jiangfb@hunnu.edu.cn)，湖南师范大学，信息科学与工程学院，副教授。
 
-项目由 [maolinqi](https://github.com/maolinqi) 维护。问题反馈与使用建议可提交到 [GitHub Issues](https://github.com/jiangfeibo/LingYing-Studio/issues)。
+项目由 [maolinqi](https://github.com/maolinqi) 维护。问题反馈与使用建议可提交到 [GitHub Issues](https://github.com/jiangfeibo/VivaPersona-Studio/issues)。
