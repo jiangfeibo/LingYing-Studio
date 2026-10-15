@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/studio-cover-anime-v2.png" alt="灵影 Studio：把教学材料变成可观看、可更新的课程，动漫概念封面" width="100%">
+  <img src="assets/vivapersona-studio-cover.png" alt="灵影 Studio：把教学材料变成可观看、可更新的课程，动漫概念封面" width="100%">
 </p>
 
 # 灵影 Studio · AI 课程制作
@@ -8,7 +8,7 @@
 
 一份课件如何成为一节有讲解、有教师画面、有重点引导的课程？教师上传已有材料，说明需要讲解的章节与学生基础，再逐步调整例子、讲稿和课程表达。
 
-**灵影 Studio（LingYing Studio）将材料处理、课程编辑、配音与数字人视频制作连接起来，已有两段完整课堂实例可供观看。** 我们已在源码中实现课件、配音与视频的 Agent 制作接口，将持续讨论、局部改课与素材复用纳入同一套制作能力，让课程随着教材和教学需求一起更新。
+**灵影 Studio（VivaPersona Studio）将材料处理、课程编辑、配音与数字人视频制作连接起来，已有两段完整课堂实例可供观看。** 我们已在源码中实现课件、配音与视频的 Agent 制作接口，将持续讨论、局部改课与素材复用纳入同一套制作能力，让课程随着教材和教学需求一起更新。
 
 <p><a href="#01-先看真实课堂">课堂实例</a> · <a href="#02-三个核心亮点">核心亮点</a> · <a href="#03-课程完成之后还能继续生长">长期价值</a> · <a href="#04-agent让课程制作成为持续协作">Agent 协作</a> · <a href="#05-下一步让知识过程动起来">动态教学</a> · <a href="#06-从教学要求开始制作">制作入口</a></p>
 
@@ -18,8 +18,8 @@
 
 | 大模型的涌现能力 | 序列到序列任务与序列标注 |
 | :---: | :---: |
-| [![课堂一：课件、教师与字幕](assets/lesson-1-poster.png)](https://jiangfeibo.github.io/LingYing-Studio/#lesson-1) | [![课堂二：课件、教师与重点聚焦](assets/lesson-2-poster.png)](https://jiangfeibo.github.io/LingYing-Studio/#lesson-2) |
-| **08:04 · 含声音 · 1080p** | **05:09 · 含声音 · 1080p** |
+| [![课堂一：课件、教师与字幕](assets/01-lesson-1-poster.png)](https://jiangfeibo.github.io/LingYing-Studio/#lesson-1) | [![课堂二：课件、教师与重点聚焦](assets/02-lesson-2-poster.png)](https://jiangfeibo.github.io/LingYing-Studio/#lesson-2) |
+| **图 1 · 08:04 · 含声音 · 1080p** | **图 2 · 05:09 · 含声音 · 1080p** |
 | [▶ 在线播放课堂一](https://jiangfeibo.github.io/LingYing-Studio/#lesson-1) | [▶ 在线播放课堂二](https://jiangfeibo.github.io/LingYing-Studio/#lesson-2) |
 | [下载完整 MP4](https://github.com/jiangfeibo/LingYing-Studio/releases/download/showcase-20261014/classroom-example-1.mp4) | [下载完整 MP4](https://github.com/jiangfeibo/LingYing-Studio/releases/download/showcase-20261014/classroom-example-2.mp4) |
 
@@ -129,15 +129,21 @@ MiniMax H3 官方资料描述了多模态参考与联合音视频生成，单段
 
 ## 06 从教学要求开始制作
 
-<p align="center"><img src="assets/07-classroom-workspace.png" alt="教学要求、材料上传、模型选择与课程任务入口" width="100%"></p>
-<p align="center"><sub>图 7 · 现有课堂生成入口，素材采集于品牌统一前。</sub></p>
+<p align="center"><img src="assets/03-classroom-workspace.png" alt="教学要求、材料上传、模型选择与课程任务入口" width="100%"></p>
+<p align="center"><sub>图 3 · 现有课堂生成入口，素材采集于品牌统一前。</sub></p>
 
 用户上传材料并说明章节、受众和用途，系统准备课程内容，再按请求处理配音、教师片段与视频交付。后台任务可以查看实际状态，处理失败与重试。
 
 ---
 
-中文名称统一为“灵影”，本项目英文名称为 **LingYing Studio**；数字人交互与视频生成项目为 [**LingYing Live**](https://github.com/jiangfeibo/LingYing-Live)。
+中文名称统一为“灵影”，本项目英文名称为 **VivaPersona Studio**；数字人交互与视频生成项目为 [**VivaPersona Live**](https://github.com/jiangfeibo/LingYing-Live)。
 
 公开仓库发布文章、图片和课堂实例，项目实现源码、权重、配置和用户数据保持私有。动漫封面为 AI 概念插画，实际成果以正文视频为准。素材与第三方组件权利说明见 [NOTICE.md](NOTICE.md)。
 
-<p align="center"><sub>灵影 Studio · 让课程随着教学需求一起更新。</sub></p>
+## 作者信息
+
+**作者：** 毛林祺，[maolinqi@hunnu.edu.cn](mailto:maolinqi@hunnu.edu.cn)，湖南师范大学，计算机技术专业，在读研究生。
+
+**指导老师：** 江沸菠，[jiangfb@hunnu.edu.cn](mailto:jiangfb@hunnu.edu.cn)，湖南师范大学，信息科学与工程学院，副教授。
+
+项目由 [maolinqi](https://github.com/maolinqi) 维护。问题反馈与使用建议可提交到 [GitHub Issues](https://github.com/jiangfeibo/LingYing-Studio/issues)。
