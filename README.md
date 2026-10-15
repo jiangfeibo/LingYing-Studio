@@ -137,6 +137,9 @@ MiniMax H3 官方资料描述了多模态参考与联合音视频生成，单段
 <p align="center"><img src="assets/04-classroom-generation-status.png" alt="课堂生成状态页：课件读取、页面导入、讲稿与教学动作准备，以及章节列表和进入课堂入口" width="100%"></p>
 <p align="center"><sub>图 4 · 课堂生成状态与章节准备，素材采集于品牌统一前。</sub></p>
 
+<p align="center"><img src="assets/05-classroom-player-concept.png" alt="灵影 Studio 课堂工作台概念图：课件目录、教学页面与自注意力示意" width="100%"></p>
+<p align="center"><sub>图 5 · 课堂工作台界面概念图，依据现有界面由 AI 重绘。</sub></p>
+
 ---
 
 中文名称统一为“灵影”，本项目英文名称为 **VivaPersona Studio**；数字人交互与视频生成项目为 [**VivaPersona Live**](https://github.com/jiangfeibo/VivaPersona-Live)。
